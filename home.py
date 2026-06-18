@@ -1,8 +1,6 @@
 import streamlit as st
-
 # Titre principal
 st.title("✨ Bienvenue sur notre note d'accueil ✨")
-
 # Sous-titre
 st.header("Nous sommes très contents de vous accueillir")
 
