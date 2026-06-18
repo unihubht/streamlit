@@ -1,22 +1,30 @@
 import streamlit as st
+
 # Titre principal
-st.title("✨ Bienvenue sur notre note d'accueil ✨")
+st.title("✨ Bienvenue sur notre application ✨")
+
 # Sous-titre
-st.header("Nous sommes très contents de vous accueillir")
+st.header("Nous sommes très heureux de vous accueillir")
 
-# Texte introductif
+# Texte d'accueil en plusieurs paragraphes
 st.write("""
-Bienvenue dans cette application de démonstration. 
-Ici, vous pouvez explorer différentes étapes du **machine learning** :
-- [Importation des données](ca://s?q=Importation_données)
-- [Analyse exploratoire](ca://s?q=Analyse_exploratoire)
-- [Subdivision du dataset](ca://s?q=Subdivision_dataset)
-- [Entraînement du modèle](ca://s?q=Entraînement_modèle)
-- [Prédiction](ca://s?q=Prédiction_modèle)
-- [Évaluation](ca://s?q=Évaluation_modèle)
+Cette application est conçue pour vous offrir une première expérience pratique 
+dans le domaine du machine learning. Elle vous permet de découvrir et de tester 
+les principales étapes d’un projet de données.
 
-C’est un premier pas vers des projets plus ambitieux, notamment dans la **[santé](ca://s?q=Projets_machine_learning_santé)** et d’autres domaines utiles.
+Vous pourrez explorer le processus complet : importation des données, 
+analyse exploratoire, subdivision du dataset, entraînement du modèle, 
+prédiction et évaluation.
+
+C’est une étape importante qui montre comment transformer des données 
+brutes en résultats utiles. Elle constitue une base solide pour avancer 
+vers des projets plus ambitieux.
+
+Nous remercions chaleureusement Aboubacar pour son orientation, ainsi que 
+TechnoDev pour cette formation. Grâce à ces bases, nous allons continuer 
+à progresser et travailler sur des projets plus directs, notamment dans 
+le domaine de la santé et d’autres secteurs utiles.
 """)
 
-# Message de remerciement
-st.success("🙏 Merci à Aboubacar pour son orientation et à TechnoDev pour cette formation qui nous ouvre la voie vers le déploiement et le deep learning.")
+# Message final
+st.success("🚀 Merci de votre visite, et bonne exploration !")
