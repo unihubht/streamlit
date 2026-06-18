@@ -17,7 +17,8 @@ pages={
     ],
 }
 nav=st.navigation(pages, position="sidebar")
-nav.run()
+
+#nav.run()
 
 
 
