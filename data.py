@@ -40,7 +40,9 @@ if upload_file is not None:
     df.columns=df.columns.str.strip()
 
     # Supprimer les espaces dans les valeurs textuelles
-    df=df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+    #df=df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+    if isinstance(df, pd.DataFrame):
+      df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
 
     # Remplacer les valeurs manquantes par NaN
     df=df.replace(["", " ", "None", "nan"], pd.NA)
